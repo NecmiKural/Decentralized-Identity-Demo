@@ -61,3 +61,4 @@ In a production environment, these issues would need to be addressed.
 - Support for different credential types
 - Selective disclosure of claims
 - Credential revocation mechanisms
+- Dockerizing the whole project
