@@ -39,10 +39,14 @@ describe('DIDService', () => {
     );
 
     expect(credential).toBeDefined();
-    expect(credential.credentialSubject.name).toBe('Test User');
+    expect(credential?.credentialSubject.name).toBe('Test User');
 
     // Verify the credential
-    const isValid = service.verifyCredential(credential.id);
-    expect(isValid).toBe(true);
+    if (credential) {
+      const isValid = service.verifyCredential(credential.id);
+      expect(isValid).toBe(true);
+    } else {
+      fail('Credential is null');
+    }
   });
 });
