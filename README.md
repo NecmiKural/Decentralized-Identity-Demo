@@ -41,6 +41,8 @@ $ npm run start
 # watch mode
 $ npm run start:dev
 
+- after running the app, you can test api's with swagger: http://localhost:3000/api
+
 # production mode
 $ npm run start:prod
 ```
