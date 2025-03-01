@@ -8,9 +8,9 @@ import {
   UseGuards,
 } from '@nestjs/common';
 import { DIDService } from '../services/did.service';
-import { JwtAuthGuard } from '../../auth/guards/jwt-auth.guard';
 import { IssueCredentialDto } from '../dto/did.dto';
 import { Request } from 'express';
+import { JwtAuthGuard } from 'src/auth/guards/jwt-auth.guard';
 
 @Controller('did')
 export class DIDController {
