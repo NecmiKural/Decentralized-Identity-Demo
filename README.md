@@ -75,7 +75,7 @@ Decentralized Identity (DID) is an approach to identity management that gives in
 1. Clone the repository
 2. Run `npm install`
 3. Start the server with `npm run start:dev`
-4. Access the Swagger documentation at http://localhost:3000/api
+4. Access the Swagger documentation at <http://localhost:3000/api>
 
 ## Security Considerations
 
